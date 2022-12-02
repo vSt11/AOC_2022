@@ -1,0 +1,19 @@
+Opponent : 
+A : rock -- 1 points
+B : Paper -- 2 point
+C : Scissors -- 3 points
+
+X : rock (1 points)
+Y : Paper (2 point)
+Z : Scissors (3 points)
+
+Nouvelles règles : 
+X = lose
+Y = draw
+Z = win
+
+Points : 
+0 if lose
+3 if draw
+6 if win
+
