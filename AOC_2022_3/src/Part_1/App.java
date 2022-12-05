@@ -7,19 +7,11 @@ import java.util.ArrayList;
 
 
 public class App {
-
-
-    
-
     public static void main(String[] args) throws Exception {
 
         BufferedReader reader = new BufferedReader(new FileReader("src/data.txt"));
-        ArrayList arr = new ArrayList<>();
-        ArrayList uppervalues = new ArrayList<>();
-        ArrayList loweredvalues = new ArrayList<>();
-
         int sum1 = 0;
-        int compteur=0;
+
         while (reader.ready()) {
 
             String str = reader.readLine();
@@ -27,10 +19,7 @@ public class App {
 
             // Cut each string line in half
             int half = str.length() / 2;
-
-            
             String str1 = str.substring(0, half);
-            
             String str2 = str.substring(half, str.length());
         
             
